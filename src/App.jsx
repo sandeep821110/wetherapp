@@ -1,5 +1,6 @@
 
 import './App.css'
+import Spech from './Spech'
 import Weather from './Weather'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       </h1>
       <Weather />
       </div>
+      
     </div>
   )
 }

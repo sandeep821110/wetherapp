@@ -1,4 +1,5 @@
 import React from 'react'
+import Spech from './Spech'
 
 const Search = ({ city, setCity, onSearch }) => {
   return (
@@ -10,6 +11,7 @@ const Search = ({ city, setCity, onSearch }) => {
         placeholder="Enter city name"
         className="p-2 rounded border"
       />
+      {/* <Spech setCity={setCity} /> */}
       <button onClick={onSearch} className="ml-2 p-2 bg-blue-500 text-white rounded">
         Search
       </button>
